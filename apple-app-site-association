@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "2B835T55H7.com.intapp.testuniversallinks",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
