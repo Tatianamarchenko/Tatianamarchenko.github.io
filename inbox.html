@@ -38,6 +38,18 @@
 }, {
 	"name": "flow",
 	"environments": [{
+		"name": "dmitriys-pc - intappauth",
+		"server_url": "http://dmitriys-pc/Open.Presentation.Mobile/",
+		"auth_type": "oauth2",
+		"email_login": true,
+		"oauth_config": {
+			"authorize_url": "http://dmitriys-pc/Open.AuthorizationServer/oauth/authorize",
+			"token_url": "http://dmitriys-pc/Open.AuthorizationServer/oauth/token",
+			"client_id": "UDDQHTYZD5",
+			"redirect_uri": "http://127.0.0.1/oauth2redirect",
+			"logout_url": "http://dmitriys-pc/Open.AuthorizationServer/account/logout"
+		}
+	},{
 		"name": "dev",
 		"server_url": "https://demodevus2.intapp.com/flowmobile/",
 		"auth_type": "onpremise",
