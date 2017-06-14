@@ -1,0 +1,32 @@
+[{
+	"name": "open",
+	"environments": [{
+		"name": "tmarchenko-pc - intappauth",
+		"server_url": "http://tmarchenko-pc/Open.Presentation.Mobile/",
+		"auth_type": "oauth2",
+		"email_login": true,
+		"oauth_config": {
+			"authorize_url": "http://tmarchenko-pc/Open.AuthorizationServer/oauth/authorize",
+			"token_url": "http://tmarchenko-pc/Open.AuthorizationServer/oauth/token",
+			"client_id": "S59R5ZS0QG",
+			"redirect_uri": "http://127.0.0.1/oauth2redirect",
+			"logout_url": "http://tmarchenko-pc/Open.AuthorizationServer/account/logout"
+		}
+	}]
+}, {
+	"name": "flow",
+	"environments": [{
+		"name": "dev",
+		"server_url": "https://demodevus2.intapp.com/flowmobile/",
+		"auth_type": "onpremise",
+		"username_hint": "name"
+	}]
+}, {
+	"name": "experience",
+	"environments": [{
+		"name": "dev",
+		"server_url": "https://inception.experience.intapp.com/api/v1/",
+		"auth_type": "onpremise",
+		"email_login": true
+	}]
+}]
