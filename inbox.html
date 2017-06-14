@@ -1,65 +1,21 @@
 [{
 	"name": "open",
 	"environments": [{
-		"name": "dev",
-		"server_url": "https://demodevus.intapp.com/openmobile/",
-		"auth_type": "onpremise",
-		"username_hint": "name"
-	},{
-		"name": "dmitriys-pc - onpremise",
-		"server_url": "http://dmitriys-pc/OpenOnPremMobile/",
-		"auth_type": "onpremise",
-		"username_hint": "name"
-	},{
-		"name": "dmitriys-pc - onpremiseCloud",
-		"server_url": "http://dmitriys-pc/Open.Presentation.Mobile/",
-		"auth_type": "onpremise",
-		"username_hint": "name"
-	},{
-		"name": "dmitriys-pc - intappauth",
-		"server_url": "http://dmitriys-pc/Open.Presentation.Mobile/",
+		"name": "tmarchenko-pc - intappauth",
+		"server_url": "http://tmarchenko-pc/OpenMobile4/",
 		"auth_type": "oauth2",
 		"email_login": true,
 		"oauth_config": {
-			"authorize_url": "http://dmitriys-pc/Open.AuthorizationServer/oauth/authorize",
-			"token_url": "http://dmitriys-pc/Open.AuthorizationServer/oauth/token",
-			"client_id": "UDDQHTYZD5",
+			"authorize_url": "http://tmarchenko-pc/Open4.AuthorizationServer/oauth/authorize",
+			"token_url": "http://tmarchenko-pc/Open4.AuthorizationServer/oauth/token",
+			"client_id": "J3TNBEA70D",
 			"redirect_uri": "http://127.0.0.1/oauth2redirect",
-			"logout_url": "http://dmitriys-pc/Open.AuthorizationServer/account/logout"
-		}
-	},{
-		"name": "pr3672 - intappauth",
-		"server_url": "https://pr3672.opendev.intapp.com/mobile/",
-		"auth_type": "oauth2",
-		"email_login": true,
-		"oauth_config": {
-			"authorize_url": "https://pr3672.opendev.intapp.com/auth/oauth/authorize",
-			"token_url": "https://pr3672.opendev.intapp.com/auth/oauth/token",
-			"client_id": "IAR281O65Y",
-			"redirect_uri": "http://127.0.0.1/oauth2redirect",
-			"logout_url": "https://pr3672.opendev.intapp.com/auth/account/logout"
+			"logout_url": "http://tmarchenko-pc/Open4.AuthorizationServer/account/logout"
 		}
 	}]
 }, {
 	"name": "flow",
 	"environments": [{
-		"name": "dmitriys-pc - flow",
-		"server_url": "http://dmitriys-pc/FlowMobile/",
-		"auth_type": "onpremise",
-		"username_hint": "name"
-	},{
-		"name": "dmitriys-pc - intappauth (flow)",
-		"server_url": "http://dmitriys-pc/Open.Presentation.Mobile/",
-		"auth_type": "oauth2",
-		"email_login": true,
-		"oauth_config": {
-			"authorize_url": "http://dmitriys-pc/Open.AuthorizationServer/oauth/authorize",
-			"token_url": "http://dmitriys-pc/Open.AuthorizationServer/oauth/token",
-			"client_id": "UDDQHTYZD5",
-			"redirect_uri": "http://127.0.0.1/oauth2redirect",
-			"logout_url": "http://dmitriys-pc/Open.AuthorizationServer/account/logout"
-		}
-	},{
 		"name": "dev",
 		"server_url": "https://demodevus2.intapp.com/flowmobile/",
 		"auth_type": "onpremise",
